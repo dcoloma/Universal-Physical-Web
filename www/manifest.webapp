@@ -1,0 +1,29 @@
+{
+  "name": "PhyWeb Scanner",
+  "launch_path": "/index.html",
+  "type": "privileged",
+  "developer": {
+    "name": "The Gaia Team",
+    "url": "https://github.com/mozilla-b2g/gaia"
+  },
+  "permissions": {
+    "bluetooth": {},
+     "systemXHR": {
+      "description": "Allows loading remote content"
+    }
+  },
+  "locales": {
+    "en-US": {
+      "name": "PhyWeb Scanner",
+      "description": "A simple app that scans the Physical Web devices nearby."
+    }
+  },
+  "default_locale": "en-US",
+  "icons": {
+    "84": "/style/icons/icon-84.png",
+    "126": "/style/icons/icon-126.png",
+    "142": "/style/icons/icon-142.png",
+    "189": "/style/icons/icon-189.png",
+    "284": "/style/icons/icon-284.png"
+  }
+}
